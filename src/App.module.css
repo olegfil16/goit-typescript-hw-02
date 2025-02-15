@@ -1,0 +1,14 @@
+.container {
+  max-width: 1700px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 20px 0 30px;
+}
+
+.toast {
+  font-size: 18px;
+  top: 10px;
+}

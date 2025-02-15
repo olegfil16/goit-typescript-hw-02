@@ -1,0 +1,43 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 900px;
+  padding: 30px 0;
+}
+
+.image {
+  max-height: 850px;
+  object-fit: contain;
+}
+
+.close {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  top: 60px;
+  right: 60px;
+  width: max-content;
+  height: max-content;
+}
+
+.closeIcon {
+  width: 65px;
+  height: 65px;
+  fill: #8b8b8b;
+}
+
+.content {
+  background-color: #fff;
+  max-height: 200px;
+  width: calc(100% - 30px);
+  padding: 15px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  font-size: 18px;
+}

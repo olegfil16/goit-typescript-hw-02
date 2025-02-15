@@ -1,0 +1,77 @@
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+}
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  background-color: #f3f3f6;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  border: 3px solid #f3f3f6;
+}
+
+.wrapper:hover {
+  background-color: #fff;
+  border-color: #ffa7a7;
+}
+
+.wrapper:has(.input:focus) {
+  background-color: #fff;
+  border-color: #ffa7a7;
+}
+
+.input {
+  font-family: inherit;
+  height: 50px;
+  width: 310px;
+  padding: 0 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: none;
+  color: #060318;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #0603186b;
+}
+
+.button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffa7a7;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.searchIcon {
+  width: 25px;
+  height: 25px;
+  fill: #fff;
+}
+
+.toast {
+  font-size: 18px;
+}
